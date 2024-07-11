@@ -53,7 +53,6 @@ img {
   border-radius: 8px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
 }
-
 nav {
   display: flex;
   background-color: black;
@@ -183,14 +182,26 @@ footer div a:hover {
     flex-direction: column;
   }
 }
-.menu-btn:hover {
+/* .menu-btn:hover {
   background-color: white;
   color: black;
-}
+} */
 section h2 {
   background: linear-gradient(to right top, #333, cyan);
   padding: 10px 55px;
   border-radius: 20px;
   color: white;
   text-align: center;
+}
+.menu-btn{
+  text-align: center;
+}
+.contact_us{
+  background-color: #aaa;
+  color: #f5f5f5;
+  padding: 32px;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 48px;
 }
